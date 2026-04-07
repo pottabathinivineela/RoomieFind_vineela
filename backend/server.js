@@ -8,14 +8,12 @@ const cors=require("cors")
   "http://localhost:3000","http://localhost:5173"
 ];
 app.use(cors({
-  origin:(origin,cb)=>{
-    if(!origin)return cb(null,true);
-    const ok=ALLOWED.some(o=>typeof o==="string"?o===origin:o.test(origin));
-    ok?cb(null,true):cb(new Error("CORS: "+origin+" not allowed"));
-  },
-  credentials:true,
-  methods:["GET","POST","PUT","DELETE","OPTIONS"],
-  allowedHeaders:["Content-Type","Authorization"]
+  origin: [
+    "https://roomiefind-vineela.vercel.app",
+    "http://localhost:5173"
+  ],
+  methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+  credentials: true
 }));
 app.use(express.json({limit:"10mb"}));
 
