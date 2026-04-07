@@ -1,0 +1,13 @@
+const fs=require("fs"),path=require("path");
+const DIR=path.join(__dirname,"../data");
+if(!fs.existsSync(DIR))fs.mkdirSync(DIR,{recursive:true});
+const fp=c=>path.join(DIR,`${c}.json`);
+const read=c=>{try{return JSON.parse(fs.readFileSync(fp(c),"utf8"));}catch{return[];}};
+const writeAll=(c,d)=>fs.writeFileSync(fp(c),JSON.stringify(d,null,2));
+const findAll=c=>read(c);
+const findOne=(c,fn)=>read(c).find(fn)||null;
+const findMany=(c,fn)=>read(c).filter(fn);
+const insert=(c,doc)=>{const d=read(c);d.push(doc);writeAll(c,d);return doc;};
+const update=(c,fn,upd)=>{const d=read(c);const i=d.findIndex(fn);if(i===-1)return null;d[i]={...d[i],...upd,updatedAt:new Date().toISOString()};writeAll(c,d);return d[i];};
+const remove=(c,fn)=>writeAll(c,read(c).filter(d=>!fn(d)));
+module.exports={findAll,findOne,findMany,insert,update,remove,writeAll};
