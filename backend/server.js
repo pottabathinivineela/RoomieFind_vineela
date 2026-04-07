@@ -9,7 +9,7 @@ const cors=require("cors")
 ];
 app.use(cors({
   origin: [
-    "https://roomiefind-vineela.vercel.app",
+    "https://roomie-find-vineela.vercel.app",
     "http://localhost:5173"
   ],
   methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
