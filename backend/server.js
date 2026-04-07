@@ -15,6 +15,7 @@ app.use(cors({
   methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
   credentials: true
 }));
+app.options("*",cors());
 app.use(express.json({limit:"10mb"}));
 
 const io=new Server(server,{cors:{origin:ALLOWED,methods:["GET","POST"]}});
