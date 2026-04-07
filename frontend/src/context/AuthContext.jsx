@@ -7,14 +7,14 @@ export function AuthProvider({children}){
   useEffect(()=>{
     const t=localStorage.getItem("rf_token");
     if(!t){setLoading(false);return;}
-    api.get("/api/auth/me").then(r=>setUser(r.data)).catch(()=>{localStorage.removeItem("rf_token");}).finally(()=>setLoading(false));
+    api.get("/auth/me").then(r=>setUser(r.data)).catch(()=>{localStorage.removeItem("rf_token");}).finally(()=>setLoading(false));
   },[]);
   const login=async(email,password)=>{
-    const{data}=await api.post("/api/login",{email,password});
+    const{data}=await api.post("/auth/login",{email,password});
     localStorage.setItem("rf_token",data.token);setUser(data.user);return data.user;
   };
   const register=async(form)=>{
-    const{data}=await api.post("/api/register",form);
+    const{data}=await api.post("/auth/register",form);
     localStorage.setItem("rf_token",data.token);setUser(data.user);return data.user;
   };
   const logout=()=>{localStorage.removeItem("rf_token");setUser(null);};
