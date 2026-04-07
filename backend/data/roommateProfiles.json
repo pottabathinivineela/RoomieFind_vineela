@@ -1,0 +1,62 @@
+[
+  {
+    "id": "rp3",
+    "userId": "u3",
+    "budgetMin": 6000,
+    "budgetMax": 10000,
+    "preferredArea": "Hitech City",
+    "genderPref": "male",
+    "gender": "male",
+    "smoking": false,
+    "sleepSchedule": "early",
+    "cleanliness": 4,
+    "workSchedule": "9-5 office",
+    "bio": "IT professional, tidy, non-smoker.",
+    "createdAt": "2026-04-07T16:34:02.745Z"
+  },
+  {
+    "id": "rp4",
+    "userId": "u4",
+    "budgetMin": 7000,
+    "budgetMax": 9000,
+    "preferredArea": "Jubilee Hills",
+    "genderPref": "female",
+    "gender": "female",
+    "smoking": false,
+    "sleepSchedule": "flexible",
+    "cleanliness": 5,
+    "workSchedule": "student",
+    "bio": "MBA student, need quiet environment.",
+    "createdAt": "2026-04-07T16:34:02.745Z"
+  },
+  {
+    "id": "rp5",
+    "userId": "u5",
+    "budgetMin": 6000,
+    "budgetMax": 11000,
+    "preferredArea": "Hitech City",
+    "genderPref": "male",
+    "gender": "male",
+    "smoking": false,
+    "sleepSchedule": "early",
+    "cleanliness": 4,
+    "workSchedule": "9-5 office",
+    "bio": "Gym enthusiast, very organized.",
+    "createdAt": "2026-04-07T16:34:02.745Z"
+  },
+  {
+    "id": "rp6",
+    "userId": "u6",
+    "budgetMin": 8000,
+    "budgetMax": 13000,
+    "preferredArea": "Banjara Hills",
+    "genderPref": "female",
+    "gender": "female",
+    "smoking": false,
+    "sleepSchedule": "flexible",
+    "cleanliness": 4,
+    "workSchedule": "remote",
+    "bio": "WFH software developer, loves cooking.",
+    "createdAt": "2026-04-07T16:34:02.745Z"
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "id": "u1",
+    "name": "Vineela Pottabathini",
+    "email": "vineela@example.com",
+    "passwordHash": "$2a$10$oEFPtYuYLMczhPXwKpnX7u5HNq256CQQodC2sxNtSsl//maRidP1.",
+    "phone": "9876543210",
+    "role": "owner",
+    "isVerified": true,
+    "bio": "Platform creator & property owner",
+    "avatar": "",
+    "createdAt": "2026-04-07T16:34:02.739Z"
+  },
+  {
+    "id": "u2",
+    "name": "Raj Kumar",
+    "email": "raj@example.com",
+    "passwordHash": "$2a$10$oEFPtYuYLMczhPXwKpnX7u5HNq256CQQodC2sxNtSsl//maRidP1.",
+    "phone": "9876543211",
+    "role": "owner",
+    "isVerified": true,
+    "bio": "Managing 3 properties in Hyderabad",
+    "avatar": "",
+    "createdAt": "2026-04-07T16:34:02.739Z"
+  },
+  {
+    "id": "u3",
+    "name": "Arjun Mehta",
+    "email": "arjun@example.com",
+    "passwordHash": "$2a$10$oEFPtYuYLMczhPXwKpnX7u5HNq256CQQodC2sxNtSsl//maRidP1.",
+    "phone": "9876543212",
+    "role": "tenant",
+    "isVerified": true,
+    "bio": "IT engineer near Hitech City",
+    "avatar": "",
+    "createdAt": "2026-04-07T16:34:02.739Z"
+  },
+  {
+    "id": "u4",
+    "name": "Sana Shaikh",
+    "email": "sana@example.com",
+    "passwordHash": "$2a$10$oEFPtYuYLMczhPXwKpnX7u5HNq256CQQodC2sxNtSsl//maRidP1.",
+    "phone": "9876543213",
+    "role": "tenant",
+    "isVerified": false,
+    "bio": "MBA student at ISB",
+    "avatar": "",
+    "createdAt": "2026-04-07T16:34:02.739Z"
+  },
+  {
+    "id": "u5",
+    "name": "Vikram Nair",
+    "email": "vikram@example.com",
+    "passwordHash": "$2a$10$oEFPtYuYLMczhPXwKpnX7u5HNq256CQQodC2sxNtSsl//maRidP1.",
+    "phone": "9876543214",
+    "role": "tenant",
+    "isVerified": true,
+    "bio": "Early riser, non-smoker, gym freak",
+    "avatar": "",
+    "createdAt": "2026-04-07T16:34:02.739Z"
+  },
+  {
+    "id": "u6",
+    "name": "Priya Reddy",
+    "email": "priya@example.com",
+    "passwordHash": "$2a$10$oEFPtYuYLMczhPXwKpnX7u5HNq256CQQodC2sxNtSsl//maRidP1.",
+    "phone": "9876543215",
+    "role": "tenant",
+    "isVerified": true,
+    "bio": "Software developer, loves cooking",
+    "avatar": "",
+    "createdAt": "2026-04-07T16:34:02.739Z"
+  }
+]

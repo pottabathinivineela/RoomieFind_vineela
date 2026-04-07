@@ -1,0 +1,29 @@
+[
+  {
+    "id": "rv1",
+    "reviewerId": "u3",
+    "targetId": "l2",
+    "targetType": "listing",
+    "rating": 5,
+    "comment": "Amazing location and super responsive owner. Highly recommend!",
+    "createdAt": "2026-04-07T16:34:02.745Z"
+  },
+  {
+    "id": "rv2",
+    "reviewerId": "u4",
+    "targetId": "l3",
+    "targetType": "listing",
+    "rating": 4,
+    "comment": "Very safe and clean. The meals are great!",
+    "createdAt": "2026-04-07T16:34:02.745Z"
+  },
+  {
+    "id": "rv3",
+    "reviewerId": "u5",
+    "targetId": "l1",
+    "targetType": "listing",
+    "rating": 5,
+    "comment": "Premium quality at a fair price. Love the amenities.",
+    "createdAt": "2026-04-07T16:34:02.745Z"
+  }
+]

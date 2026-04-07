@@ -1,0 +1,168 @@
+[
+  {
+    "id": "l1",
+    "ownerId": "u1",
+    "title": "Luxury 2BHK in Banjara Hills",
+    "description": "Fully furnished premium apartment with modular kitchen, high-speed WiFi and 24/7 security. Walking distance to major malls and restaurants. Ideal for young professionals.",
+    "propertyType": "flat",
+    "rent": 25000,
+    "deposit": 75000,
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "area": "Banjara Hills",
+    "city": "Hyderabad",
+    "pincode": "500034",
+    "amenities": [
+      "wifi",
+      "ac",
+      "parking",
+      "gym",
+      "power_backup",
+      "cctv"
+    ],
+    "photos": [
+      "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=700&q=80",
+      "https://images.unsplash.com/photo-1484154218962-a197022b5858?w=700&q=80"
+    ],
+    "availableFrom": "2024-02-01T00:00:00.000Z",
+    "isAvailable": true,
+    "createdAt": "2026-04-02T16:34:02.743Z"
+  },
+  {
+    "id": "l2",
+    "ownerId": "u2",
+    "title": "Modern 1BHK near Hitech City Metro",
+    "description": "Smart home with automated lights, fully furnished with premium furniture. 2 min walk to Metro. No brokerage. Owner verified.",
+    "propertyType": "flat",
+    "rent": 15000,
+    "deposit": 30000,
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "area": "Hitech City",
+    "city": "Hyderabad",
+    "pincode": "500081",
+    "amenities": [
+      "wifi",
+      "ac",
+      "power_backup",
+      "washing_machine"
+    ],
+    "photos": [
+      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=700&q=80",
+      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=700&q=80"
+    ],
+    "availableFrom": "2024-01-15T00:00:00.000Z",
+    "isAvailable": true,
+    "createdAt": "2026-04-04T16:34:02.743Z"
+  },
+  {
+    "id": "l3",
+    "ownerId": "u1",
+    "title": "Premium PG for Girls – Jubilee Hills",
+    "description": "Safe, secure and beautiful PG exclusively for working women and students. Home-cooked meals, CCTV, biometric entry, laundry service included.",
+    "propertyType": "pg",
+    "rent": 9000,
+    "deposit": 18000,
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "area": "Jubilee Hills",
+    "city": "Hyderabad",
+    "pincode": "500033",
+    "amenities": [
+      "wifi",
+      "meals",
+      "laundry",
+      "cctv",
+      "ac"
+    ],
+    "photos": [
+      "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?w=700&q=80",
+      "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=700&q=80"
+    ],
+    "availableFrom": "2024-01-20T00:00:00.000Z",
+    "isAvailable": true,
+    "createdAt": "2026-04-05T16:34:02.743Z"
+  },
+  {
+    "id": "l4",
+    "ownerId": "u2",
+    "title": "Spacious 3BHK Villa – Gachibowli",
+    "description": "Independent villa with terrace, garden, servant quarters and 2-car parking. Minutes from DLF Cybercity and top international schools. Fully furnished.",
+    "propertyType": "house",
+    "rent": 42000,
+    "deposit": 126000,
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "area": "Gachibowli",
+    "city": "Hyderabad",
+    "pincode": "500032",
+    "amenities": [
+      "parking",
+      "garden",
+      "power_backup",
+      "cctv",
+      "ac",
+      "gym"
+    ],
+    "photos": [
+      "https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=700&q=80",
+      "https://images.unsplash.com/photo-1583608205776-bfd35f0d9f83?w=700&q=80"
+    ],
+    "availableFrom": "2024-02-10T00:00:00.000Z",
+    "isAvailable": true,
+    "createdAt": "2026-04-06T16:34:02.743Z"
+  },
+  {
+    "id": "l5",
+    "ownerId": "u1",
+    "title": "Private Room in Shared Flat – Madhapur",
+    "description": "Furnished private room in a 3BHK flat shared with 2 IT professionals. Attached bathroom, AC, wardrobe. Split utilities. No brokerage.",
+    "propertyType": "room",
+    "rent": 8000,
+    "deposit": 16000,
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "area": "Madhapur",
+    "city": "Hyderabad",
+    "pincode": "500081",
+    "amenities": [
+      "wifi",
+      "ac",
+      "washing_machine"
+    ],
+    "photos": [
+      "https://images.unsplash.com/photo-1598928506311-c55ded91a20c?w=700&q=80"
+    ],
+    "availableFrom": "2024-01-25T00:00:00.000Z",
+    "isAvailable": true,
+    "createdAt": "2026-04-07T16:34:02.744Z"
+  },
+  {
+    "id": "l6",
+    "ownerId": "u2",
+    "title": "Co-living Space – Kondapur",
+    "description": "Premium co-living with community events, shared workspaces, high-speed internet and chef-prepared meals. All-inclusive pricing. Perfect for remote workers.",
+    "propertyType": "pg",
+    "rent": 12000,
+    "deposit": 24000,
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "area": "Kondapur",
+    "city": "Hyderabad",
+    "pincode": "500084",
+    "amenities": [
+      "wifi",
+      "meals",
+      "gym",
+      "laundry",
+      "ac",
+      "power_backup"
+    ],
+    "photos": [
+      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=700&q=80"
+    ],
+    "availableFrom": "2024-02-05T00:00:00.000Z",
+    "isAvailable": true,
+    "createdAt": "2026-04-03T16:34:02.744Z"
+  }
+]
