@@ -1,9 +1,9 @@
 const express=require("express"),http=require("http"),{Server}=require("socket.io"),cors=require("cors"),{v4:uuidv4}=require("uuid"),db=require("./utils/db");
 const app=express(),server=http.createServer(app);
-
-const ALLOWED=[
-  "https://roomiefind.vercel.app",
-  "https://roomie-find.vercel.app",
+const cors=require("cors")
+;const ALLOWED=[
+  "https://roomiefind-vineela.vercel.app",
+  "https://roomie-find-vineela.vercel.app",
   /https:\/\/roomiefind.*\.vercel\.app/,
   "http://localhost:3000","http://localhost:5173"
 ];
